@@ -16,6 +16,11 @@
     font-family: 'montserrat', sans-serif;
 }
 
+img{
+    float: left;
+    width: 100px;
+}
+
 /* 
     main 
 */
@@ -23,6 +28,13 @@
 .container{
     margin: 0 auto;
     max-width: 1200px;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .pink{
@@ -35,6 +47,10 @@
 
 h2, .team-position, a{
     font-family: 'montserrat', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    display: inline-block;
 }
 
 a{
@@ -52,5 +68,8 @@ a{
 
 .card{
     background-color: black;
-    border-radius: 25px;
+    width:calc(100% / 3 - 30px);
+    height: 100px;
+    margin: 50px 15px 0;
+    float: left;
 }
