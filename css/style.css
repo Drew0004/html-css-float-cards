@@ -14,16 +14,13 @@
 .font-header{
     text-align: center;
     font-family: 'montserrat', sans-serif;
+    margin-top: 50px;
 }
 
 img{
     float: left;
     width: 100px;
 }
-
-/* 
-    main 
-*/
 
 .container{
     margin: 0 auto;
@@ -36,6 +33,10 @@ img{
     display: table;
     clear: both;
 }
+
+/* 
+    main 
+*/
 
 .pink{
     color: palevioletred;
