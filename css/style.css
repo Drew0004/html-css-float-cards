@@ -1,0 +1,56 @@
+/* 
+    reset 
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    general 
+*/
+
+.font-header{
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+}
+
+/* 
+    main 
+*/
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pink{
+    color: palevioletred;
+}
+
+.white{
+    color: white;
+}
+
+h2, .team-position, a{
+    font-family: 'montserrat', sans-serif;
+}
+
+a{
+    color: rgb(0, 191, 255);
+}
+
+.team-position{
+    font-size: 15px;
+}
+
+.paragraph{
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.card{
+    background-color: black;
+    border-radius: 25px;
+}
